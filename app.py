@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Bootcamp Data Analytics for oil and gas"
+st.title("Bootcamp Data Analytics for oil and gas")
 
 Pozo = "SPE-001"
 Petroleo_bppd = 1250
