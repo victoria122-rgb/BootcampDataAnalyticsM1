@@ -11,3 +11,5 @@ st.write("Pozo")
 st.write("Petroleo_bppd")
 st.write("Agua_bpd")
 st.write("Status")
+
+st.sidebar.title("Parametros")
