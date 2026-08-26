@@ -17,7 +17,7 @@ if modulos == "Introducion variables":
     st.write("Status")
 
 elif modulos == "Funciones":
-def calcular_caudal_vogel(caudal_maximo=1000, presion_yacimeinto=3000, presion_fondo=200, decimales=2):
+    def calcular_caudal_vogel(caudal_maximo=1000, presion_yacimeinto=3000, presion_fondo=200, decimales=2):
     """
     Calcula el caudal de petróleo utilizando el modelo de Vogel.
   
@@ -35,5 +35,8 @@ def calcular_caudal_vogel(caudal_maximo=1000, presion_yacimeinto=3000, presion_f
     caudal = caudal_max*(1-0.2*relacion_presion-0.8*(relacion_presion**2))
     return round(caudal, decimales)
   
-    caudal maximo = st.number_input["Ingrese el caudal maximo"]
+    caudal_maximo = st.number_input["Ingrese el caudal maximo"]
+    presion_yacimeinto = st.number_input["Ingrese presion de yacimeinto"]
+    presion_fondo = st.number_input["Ingrese la presion de fondo"]
+    decimales = st.number_input["Ingrese decimales para su calculo"]
 
