@@ -16,7 +16,7 @@ if modulos == "Introducion variables":
     st.write("Agua_bpd")
     st.write("Status")
 
-elif modulos == "Funciones"
+elif modulos == "Funciones":
 def calcular_caudal_vogel(caudal_maximo=1000, presion_yacimeinto=3000, presion_fondo=200, decimales=2):
     """
     Calcula el caudal de petróleo utilizando el modelo de Vogel.
