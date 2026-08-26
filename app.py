@@ -32,7 +32,7 @@ elif modulos == "Funciones":
         """
           
         relacion_presion = presion_fondo/presion_yacimeinto
-        caudal = caudal_max*(1-0.2*relacion_presion-0.8*(relacion_presion**2))
+        caudal = caudal_maximo*(1-0.2*relacion_presion-0.8*(relacion_presion**2))
         return round(caudal, decimales)
       
 caudal_maximo = st.number_input["Ingrese el caudal maximo"]
