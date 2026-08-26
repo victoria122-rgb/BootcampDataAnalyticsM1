@@ -5,7 +5,7 @@ st.sidebar.title("Parametros")
 
 modulos = st.sidebar.selectbox("Seleccion un modulo",["Introduccion a variables","Funciones"])
 
-if modulos == "Introducion variables"
+if modulos == "Introducion variables":
     Pozo = "SPE-001"
     Petroleo_bppd = 1250
     Agua_bpd = 350.50
