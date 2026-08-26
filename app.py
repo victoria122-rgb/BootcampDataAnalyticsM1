@@ -6,16 +6,15 @@ st.sidebar.title("Parametros")
 modulos = st.sidebar.selectbox("Seleccion un modulo",["Introduccion a variables","Funciones"])
 
 if modulos == "Introducion variables"
-  
-    Pozo = "SPE-001"
-    Petroleo_bppd = 1250
-    Agua_bpd = 350.50
-    Status = True
-    
-    st.write("Pozo")
-    st.write("Petroleo_bppd")
-    st.write("Agua_bpd")
-    st.write("Status")
+  Pozo = "SPE-001"
+  Petroleo_bppd = 1250
+  Agua_bpd = 350.50
+  Status = True
+   
+  st.write("Pozo")
+  st.write("Petroleo_bppd")
+  st.write("Agua_bpd")
+  st.write("Status")
 
 elif modulos == "Funciones"
 def calcular_caudal_vogel(caudal_maximo=1000, presion_yacimeinto=3000, presion_fondo=200, decimales=2):
