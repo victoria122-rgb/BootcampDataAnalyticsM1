@@ -11,10 +11,10 @@ if modulos == "Introducion a variables":
     Agua_bpd = 350.50
     Status = True
      
-    st.write("Pozo")
-    st.write("Petroleo_bppd")
-    st.write("Agua_bpd")
-    st.write("Status")
+    st.write("Pozo:", pozo)
+    st.write("Petroleo_bppd:", Petroleo_bppd)
+    st.write("Agua_bpd:", Agua_bpd)
+    st.write("Status:", Status)
 
 elif modulos == "Funciones":
     def calcular_caudal_vogel(caudal_maximo=1000, presion_yacimiento=3000, presion_fondo=200, decimales=2):
