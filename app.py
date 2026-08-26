@@ -10,7 +10,7 @@ if modulos == "Introduccion a variables":
         Petroleo_bppd = 1250
         Agua_bpd = 350.50
         Status = True
-         
+       
         st.write("Pozo:", Pozo)
         st.write("Petroleo_bppd:", Petroleo_bppd)
         st.write("Agua_bpd:", Agua_bpd)
