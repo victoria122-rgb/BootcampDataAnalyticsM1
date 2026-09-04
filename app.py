@@ -40,3 +40,6 @@ elif modulos == "Funciones":
     presion_fondo = st.number_input("Ingrese la presion de fondo", min_value = 0, max_value = 9000, value = 1500)
     decimales = st.slider("Ingrese decimales para su calculo", min_value = 0, max_value = 4, value = 2)
 
+caudal= calcular_caudal_vogel(caudal_maximo, presion_yacimiento, presion_fondo, decimales)
+st.write("El caudal es:", caudal)
+
