@@ -41,7 +41,6 @@ presion_fondo = st.number_input("Ingrese la presion de fondo", min_value = 0, ma
 decimales = st.slider("Ingrese decimales para su calculo", min_value = 0, max_value = 4, value = 2)
 caudal = calcular_caudal_vogel(caudal_maximo, presion_yacimiento, presion_fondo, decimales)
 st.write("El caudal es:", caudal)
-
 elif modulos == "POO":
         class Pozo:
           def __init__(self, nombre, campo, petroleo, agua):
