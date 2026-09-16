@@ -59,7 +59,6 @@ elif modulos == "POO":
           def proyectar_produccion(self, dias):
             produccion_proyectada = (self.petroleo + self.agua) * dias
             return produccion_proyectada
-
     nombre_pozo = st.text_input("Ingrese el nombre del pozo")
     campo_pozo = st.text_input("Ingrese el campo del pozo")
     petroleo = st.number_input("Ingrese produccion de petroleo", min_value = 0, max_value = 5000, value = 1000)
