@@ -60,10 +60,10 @@ elif modulos == "POO":
             produccion_proyectada = (self.petroleo + self.agua) * dias
             return produccion_proyectada
 
-    nombre_pozo = st.text_input("Ingrese el nombre del pozo")
-    campo_pozo = st.text_input("Ingrese el campo del pozo")
-    petroleo = st.number_input("Ingrese produccion de petroleo", min_value = 0, max_value = 5000, value = 1000)
-    agua = st.number_input("Ingrese produccion de agua", min_value = 0, max_value = 5000, value = 200)
+        nombre_pozo = st.text_input("Ingrese el nombre del pozo")
+        campo_pozo = st.text_input("Ingrese el campo del pozo")
+        petroleo = st.number_input("Ingrese produccion de petroleo", min_value = 0, max_value = 5000, value = 1000)
+        agua = st.number_input("Ingrese produccion de agua", min_value = 0, max_value = 5000, value = 200)
 
     pozo = Pozo(nombre_pozo,campo_pozo,petroleo,agua)
     st.write(pozo.mostrar_informacion())
